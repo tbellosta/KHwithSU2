@@ -55,3 +55,8 @@ for (iMesh = 0; iMesh <= config->GetnMGLevels(); iMesh++) {
 
 ## Simulation result
 ![](FIG/rhowcont.gif)
+
+![](FIG/rho_1400.png)
+![](FIG/p_1400.png)
+![](FIG/T_1400.png)
+![](FIG/M_1400.png)
