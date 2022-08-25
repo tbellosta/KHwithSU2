@@ -4,7 +4,7 @@ Numerical simulation of the KH instability with SU2
 ## Geometry, Boundary and Initial conditions
 The Euler equations are soved on a square of edge equal to 1. The computational grid is a uniform structured mesh with 1000x1000 points. Periodic boundary conditions are enforced on all sides of the square. The initial condition is set to trigger the instability as:
 $$
-(\rho0, u0, v0, p0) = \begin{cases}
+(\rho, u, v, p) = \begin{cases}
 (2, -0.5, 0.01 sin(2 \pi x), 2.5) \quad for |y| \leq 0.25 \\
 (1, 0.5, 0.01 sin(2 \pi x), 2.5) \quad for |y| > 0.25
 \end{cases}
